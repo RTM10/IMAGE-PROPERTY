@@ -1,0 +1,33 @@
+<HTML>
+    <HEAD>
+        <TITLE>Image Property</TITLE>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </HEAD>
+    <STYLE>
+        .form_image{
+            border:1px solid black;
+            width: 40%;
+            background-color: white;
+            padding-top:5%;
+            padding-bottom: 5%;
+        }
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </STYLE>
+    <BODY>
+        <BR>
+
+        <CENTER>
+            <H3>Detect Image Properties</H3>
+            The Image Properties feature detects general attributes of the image, such as dominant color. 
+
+        <FORM action="" method="POST" action="/success" enctype="multipart/form-data" class="form_image">
+        <INPUT type="file" id="myFile" name="file">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </FORM>
+        </CENTER>
+    </BODY>
+</HTML>
